@@ -32,7 +32,7 @@ def login():
         login_button = driver.find_element(By.ID, 'loginBtn')
         login_button.click()
         
-        time.sleep(5)
+        time.sleep(10)
         driver.find_element(By.CLASS_NAME, 'iframe')
         
     except:
