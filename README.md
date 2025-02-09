@@ -8,9 +8,12 @@ A selenium bot to automate almost every answer of CodeTantra Learning & Practica
 ```bash
 git clone https://github.com/ai-man-codes/CodeTantraBot.git
 ```
+```bash
+cd CodeTantraBot-Learning
+```
 OR
 ```bash
-cd CodeTantraBot
+cd CodeTantraBot-Practical
 ```
 2. Install dependencies:
 ```python
