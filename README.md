@@ -1,4 +1,4 @@
-# CodeTantraBot - Practical
+# CodeTantraBot
 
 A selenium bot to automate almost every answer of CodeTantra Learning & Practical questions. It only injects the correct answer does not submit it.
 
