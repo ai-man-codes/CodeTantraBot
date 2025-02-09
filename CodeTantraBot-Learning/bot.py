@@ -32,8 +32,8 @@ def login():
         login_button = driver.find_element(By.ID, 'loginBtn')
         login_button.click()
         
-        time.sleep(10)
-        driver.find_element(By.CLASS_NAME, 'iframe')
+        time.sleep(20)
+        driver.find_element(By.CLASS_NAME, 'stretched-link')
         
     except:
         print("Login failed! use correct username and password")

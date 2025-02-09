@@ -32,10 +32,11 @@ def login():
         login_button.click()
 
         time.sleep(10)
-        driver.find_element(By.TAG_NAME, 'iframe')
+        driver.find_element(By.CLASS_NAME, 'stretched-link')
         
-    except:
+    except Exception as e:
         print("Login failed! use correct username and password")
+        print(e)
         driver.quit()
         sys.exit()
 
