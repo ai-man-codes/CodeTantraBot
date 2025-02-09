@@ -7,6 +7,9 @@ A selenium bot to automate almost every answer of CodeTantra Learning & Practica
 1. Clone the repository:
 ```bash
 git clone https://github.com/ai-man-codes/CodeTantraBot.git
+OR
+```
+```bash
 cd CodeTantraBot
 ```
 2. Install dependencies:
