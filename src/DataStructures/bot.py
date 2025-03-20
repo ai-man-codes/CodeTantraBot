@@ -1,23 +1,21 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import json
+import os
 import time
-import getpass
 import sys
 
-driver = webdriver.Firefox()
+bot_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(bot_dir, 'answers.json')
 
-with open('answers.json', 'r') as ans:
+with open(json_path, 'r') as ans:
     data = json.load(ans)
 
-HOME_URL = "https://kiet.codetantra.com/secure/home.jsp"
 COMMENT = '"""'
+CODE_ID = "54883bea2036d78c5efedc3a"
+MCQ_ID = "549b4cf30e08f22e46dbf9cf"
 
-def login():
-    print("\t\tCodeTantraBot by Ai-man")
-
-    username = input("username : ")
-    password = getpass.getpass("password : ")
+def login(driver, username: str, password: str):
 
     try:
         driver.get("https://kiet.codetantra.com/login.jsp")
@@ -30,17 +28,16 @@ def login():
 
         login_button = driver.find_element(By.ID, 'loginBtn')
         login_button.click()
-
+        
         time.sleep(10)
         driver.find_element(By.CLASS_NAME, 'stretched-link')
         
-    except Exception as e:
+    except:
         print("Login failed! use correct username and password")
-        print(e)
         driver.quit()
         sys.exit()
 
-def switch_tab(url: str):
+def switch_tab(driver, url: str):
     driver.execute_script(f"window.open('{url}', '_blank');")
     new_tab = driver.window_handles[-1]
     driver.switch_to.window(new_tab)
@@ -51,18 +48,30 @@ def switch_tab(url: str):
         driver.close()
 
     driver.switch_to.window(new_tab)
-
-def bot(url: str, answer_html: str):
-    unchangable_code = []
     
-    switch_tab(url)
-    time.sleep(10)
+def mcq(driver, answer: list):
+    checkboxes = driver.find_elements(By.CLASS_NAME, 'checkbox')
+    
+    for i, checkbox in enumerate(checkboxes):
+        if(checkbox.is_selected() != answer[i]):
+            checkbox.click()
+        i += 1
+        
+    print("MCQ DONE ")
+    
+    next_btn = driver.find_element(By.CLASS_NAME, 'btn-info')
+    next_btn.click()
+    time.sleep(2)
+            
+def code(driver, answer_html: str):
+    code_frames = driver.find_elements(By.XPATH, "//ul//li//div[contains(@class, 'border-r-base-300')]//button[contains(@class, 'flex') and contains(@class, 'items-center') and contains(@class, 'gap-1')]")
 
-    iframe = driver.find_element(By.TAG_NAME, 'iframe')
-    driver.switch_to.frame(iframe)
-
+    if len(code_frames) == 2:
+        button = code_frames[1]
+        button.click()
+    
     element = driver.find_element(By.CLASS_NAME, "cm-content")
-
+    
     unchangable_code = driver.find_elements(By.CLASS_NAME, "bg-error")
     
     try:
@@ -90,19 +99,32 @@ def bot(url: str, answer_html: str):
             time.sleep(2)
         except:
             print("ERROR !")
+     
+def bot(driver, url: str):
+    switch_tab(driver, url)
+    print("\n")
+    time.sleep(10)
+
+    iframe = driver.find_element(By.TAG_NAME, 'iframe')
+    driver.switch_to.frame(iframe)
     
-def main():
-    login()
+def main(username: str, password: str):
+    driver = webdriver.Firefox()
+
+    login(driver, username, password)
     
     for item in data:
         url = item['url']
-        #answer = item['answer']
-        answer_html = item['answer_html']
-
-        bot(url, answer_html)  
-        print("\n")
-    
-    driver.quit()
-
-if __name__ == "__main__":
-    main()
+        question_type = item['question_type']
+        
+        bot(driver, url)
+        
+        if question_type == CODE_ID:
+            answer_html = item['answer_html']
+            code(driver, answer_html)
+            
+        elif question_type == MCQ_ID:
+            answer = item['answer']
+            mcq(driver, answer)
+        
+        time.sleep(2)
