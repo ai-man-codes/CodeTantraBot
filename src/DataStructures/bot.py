@@ -55,7 +55,6 @@ def mcq(driver, answer: list):
     for i, checkbox in enumerate(checkboxes):
         if(checkbox.is_selected() != answer[i]):
             checkbox.click()
-        i += 1
         
     print("MCQ DONE ")
     
