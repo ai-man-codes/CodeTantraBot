@@ -26,33 +26,12 @@ Follow these steps to set up and run CodeTantraBot:
    pip install -r requirements.txt
    ```
 
-2. **Install Dependencies:**
-
-   Navigate to the desired directory depending on whether you want to use the Learning or Practical version, and then install the dependencies.
-
-   For the **Learning** version:
-   ```bash
-   cd CodeTantraBot-Learning
-   ```
-
-   For the **Practical** version:
-   ```bash
-   cd CodeTantraBot-Practical
-   ```
-
-3. **Run the Bot:**
+2. **Run the Bot:**
 
    Start the bot by running:
    ```bash
-   python bot.py
+   python main.py
    ```
-
-## Reset
-
-If you need to reset everything back to normal, simply run:
-```bash
-python reset.py
-```
 
 ## Contributing
 
