@@ -1,6 +1,6 @@
 # CodeTantraBot
 
-CodeTantraBot is a Selenium automation tool designed to handle almost every answer for CodeTantra Learning & Practical questions. **Note:** The bot only injects the correct answer into the field; it does **not** submit it automatically.
+CodeTantraBot is a Selenium automation tool designed to handle almost every answer for CodeTantra Learning, Practical & Data Structures questions. **Note:** The bot only injects the correct answer into the field; it does **not** submit it automatically.
 
 # Download
 
@@ -10,7 +10,7 @@ CodeTantraBot is a Selenium automation tool designed to handle almost every answ
 
 - **Automated Answer Injection:** Automatically fills in the correct answer for CodeTantra questions.
 - **Controlled Submission:** Only injects the answer—submission is left to you.
-- **Supports Two Modes:** Works for both CodeTantra Learning and CodeTantra Practical questions.
+- **Supports Different Modes:** Works for CodeTantra Learning, CodeTantra Practical & Data Structures questions.
 
 ## Requirements
 
