@@ -1,16 +1,23 @@
 import customtkinter as ctk
 
+import os
+
 from PIL import Image
 
-from src.DataStructures import bot as DS_bot
-from src.PythonLearning import bot as PYL_bot
-from src.PythonPractical import bot as PYP_bot
+from src.Bots.DataStructures import bot as DS_bot
+from src.Bots.PythonLearning import bot as PYL_bot
+from src.Bots.PythonPractical import bot as PYP_bot
 
 ctk.set_appearance_mode('dark')
 ctk.set_default_color_theme('blue')
 
 appWidth = 800
 appHeight = 500
+
+img_dir = os.path.dirname(os.path.abspath(__file__))
+
+icon_path = os.path.join(img_dir, 'assets/favicon.ico')
+header_path = os.path.join(img_dir, 'assets/logo-white-text.png')
 
 DS_CONTENT = " Data Structures Content"
 PY_LEARNING_CONTENT = " Python Learning Content"
@@ -22,7 +29,7 @@ class App(ctk.CTk):
         
         self.title('CodeTantraBot ~ Ai-man')
         
-        self.iconbitmap("assets/favicon.ico")
+        self.iconbitmap(icon_path)
 
         self.geometry(f"{appWidth}x{appHeight}")
         self.resizable(False, False)
@@ -30,8 +37,8 @@ class App(ctk.CTk):
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)  
 
-        self.header_image = ctk.CTkImage(light_image=Image.open("assets/logo-white-text.png"),
-                                         dark_image=Image.open("assets/logo-white-text.png"),
+        self.header_image = ctk.CTkImage(light_image=Image.open(header_path),
+                                         dark_image=Image.open(header_path),
                                          size=(500, 80),
                                          )  
         self.header = ctk.CTkLabel(self, image=self.header_image, text="")
@@ -61,6 +68,12 @@ class App(ctk.CTk):
                                      command=self.start,
                                      )
         self.startBtn.grid(padx=30, pady=30)
+        
+        self.warningLabel = ctk.CTkLabel(self, text="DO NOT TOUCH ANYTHING IN THE BROWSER !",
+                                         height=25,
+                                         text_color="white",
+                                         )
+        self.warningLabel.grid(pady= 10)
 
     def start(self):
         username = self.username.get()

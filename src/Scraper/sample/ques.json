@@ -1,0 +1,1052 @@
+{
+	"contents": [
+		{
+			"name": "Introduction to Python - Session 1",
+			"description": "Introduction to Python - Session 1",
+			"type": "unit",
+			"id": "678fb1fef486be5b43f1ff84",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "66cc118b333df12a437201e8",
+							"src": "AMTUwN19jdF9jaA==",
+							"courseOutcomes": null,
+							"type": "question",
+							"name": "Program to calculate the result of the expression (a + b)*c",
+							"questionNo": "39901",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "66cc1cb1333df12a437210b3",
+							"src": "AMTUwN19jdF9jaA==",
+							"courseOutcomes": null,
+							"type": "question",
+							"name": "Program to Swap Two Variables",
+							"questionNo": "39934",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "66cca34d8ceca2448b792db3",
+							"src": "AMTUwN19jdF9jaA==",
+							"courseOutcomes": null,
+							"type": "question",
+							"name": "Program to calculate the expression (a + b + c)*(a - b)",
+							"questionNo": "40169",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "678fb238f486be5b43f1ffcc"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "66c859daa0d98b2d6e59363d",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Volume of Sphere",
+							"questionNo": "39639",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "66b4ae2df1278d2359f49c33",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Price of an Item",
+							"questionNo": "38018",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "678fb246f486be5b43f1ffea"
+				}
+			]
+		},
+		{
+			"name": "Introduction to Python - Session 2",
+			"description": "Introduction to Python - Session 2",
+			"type": "unit",
+			"id": "678fb205f486be5b43f1ffac",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "66b4b060f1278d2359f49dde",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Convert to a String and an Integer",
+							"questionNo": "38019",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "66c96be95fc6490019723465",
+							"src": "AMTUwN19jdF9jaA==",
+							"courseOutcomes": null,
+							"type": "question",
+							"name": "Annual interest rate",
+							"questionNo": "39719",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6708e7a7b026df44c874507b",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Body mass index calculation",
+							"questionNo": "47067",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "678fb255f486be5b43f1ffef"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "67173f7781565130e99c18f4",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Price of an Item",
+							"questionNo": "48102",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6708e753b026df44c8745041",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Average speed",
+							"questionNo": "47066",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "678fb263f486be5b43f1fff9"
+				}
+			]
+		},
+		{
+			"name": "Introduction to Python - Session 3",
+			"description": "Introduction to Python - Session 3",
+			"type": "unit",
+			"id": "678fb20ef486be5b43f1ffb0",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "65842462c16b9d4c8a396e0f",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Word repetition game",
+							"questionNo": "21597",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "65842c84c16b9d4c8a3976f2",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Fusion of words",
+							"questionNo": "21599",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "658432ebc16b9d4c8a39d420",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Arun's Number Game",
+							"questionNo": "21603",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "678fb25af486be5b43f1fff3"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "65842ee6c16b9d4c8a39cf15",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Johny's Stationery Order Calculator",
+							"questionNo": "21600",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "65843035c16b9d4c8a39d116",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Creating Complex Numbers",
+							"questionNo": "21601",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "678fb267f486be5b43f1fffb"
+				}
+			]
+		},
+		{
+			"name": "Python Program Flow Control Conditional blocks - Session 4",
+			"description": "Python Program Flow Control Conditional blocks - Session 4",
+			"type": "unit",
+			"id": "6791f6f6dab394026853f871",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "659ad69551bec00d64676a42",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Finding Even or Odd",
+							"questionNo": "22377",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655c8b2ea26d395eb6c15fef",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Dinner plan",
+							"questionNo": "19897",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "659ad0f6e2eef05cefa18a7c",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Determine whether the last digit of a number is Even or Odd",
+							"questionNo": "22376",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6791f93bdab394026853fc52"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "659ac2b3e2eef05cefa1761b",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Buying an iPhone with specific requirements ",
+							"questionNo": "22373",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "659ac856e2eef05cefa17e97",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Highest marks among three students",
+							"questionNo": "22374",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6791f944dab394026853fc64"
+				}
+			]
+		},
+		{
+			"name": "Python Program Flow Control Conditional blocks - Session 5",
+			"description": "Python Program Flow Control Conditional blocks - Session 5",
+			"type": "unit",
+			"id": "6791f85bdab394026853fab4",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "655c4a9ba26d395eb6c06ffd",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Series Calculation 1",
+							"questionNo": "19873",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655c7d60a26d395eb6c128a3",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Reverse and Alternate",
+							"questionNo": "19883",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655c8ecba26d395eb6c16a1a",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Sum of cubes of digit",
+							"questionNo": "19907",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6791f96ddab394026853fcb4"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "655c60ada26d395eb6c0bff8",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Special Number 1",
+							"questionNo": "19881",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6573ecb4ae1d373d25ef3c7b",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Prime checking application",
+							"questionNo": "20605",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6791f974dab394026853fcc4"
+				}
+			]
+		},
+		{
+			"name": "Python Program Flow Control Conditional blocks - Session 6",
+			"description": "Python Program Flow Control Conditional blocks - Session 6",
+			"type": "unit",
+			"id": "6791f864dab394026853fac5",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "655c5120a26d395eb6c08cb1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Ugly Number 1",
+							"questionNo": "19875",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655d890cedc093372d7d1f61",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Special Number 2",
+							"questionNo": "19947",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655d95b4edc093372d7d5733",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Viva Exam 2",
+							"questionNo": "19954",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6791f95edab394026853fc92"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "653626ea1c7a2a4102e0855d",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "English to a Mathematical language",
+							"questionNo": "18970",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655dd1d1edc093372d7e3035",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Group the Items into Equal Quantity",
+							"questionNo": "19967",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6791f965dab394026853fca0"
+				}
+			]
+		},
+		{
+			"name": "Python Complex Data Types - Session 7",
+			"description": "Python Complex Data Types - Session 7",
+			"type": "unit",
+			"id": "6792a74021a60e0acd058655",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6560822eeb2429452d514158",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Decode the String",
+							"questionNo": "20013",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "657313189601630c6d2077c1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "String Concatenation",
+							"questionNo": "20525",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "656082f1eb2429452d5143b1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "string after character repetition",
+							"questionNo": "20014",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6792a80b21a60e0acd05868f"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6792b239e2003a6dbb5760b1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Password Validation",
+							"questionNo": "62857",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "65741dbaae1d373d25efb018",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Naming Convention Problem",
+							"questionNo": "20649",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6792a81721a60e0acd058691"
+				}
+			]
+		},
+		{
+			"name": "Python Complex Data Types - Session 8",
+			"description": "Python Complex Data Types - Session 8",
+			"type": "unit",
+			"id": "6792a74721a60e0acd058658",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6573f0bfae1d373d25ef4603",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Chocolate machine",
+							"questionNo": "20606",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "65745c42d580c70cc876ded7",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Sorting the key-value pairs",
+							"questionNo": "20686",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "670663f1ddb9965219c0fa46",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Merge Two Lists into Tuple Pairs",
+							"questionNo": "46797",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6792a82621a60e0acd058695"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "656083eceb2429452d51471c",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Binary Coded Decimal",
+							"questionNo": "20015",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6576acdb85983952d2cd4c19",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Even numbers between second largest and second smallest numbers",
+							"questionNo": "20959",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6792a82d21a60e0acd058699"
+				}
+			]
+		},
+		{
+			"name": "Python Complex Data Types - Session 9",
+			"description": "Python Complex Data Types - Session 9",
+			"type": "unit",
+			"id": "6792a74d21a60e0acd05865a",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "66ff7e6fefff933ee7078598",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Total Cost of Books",
+							"questionNo": "45906",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "66ffb037efff933ee707c6c4",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Sum of the Digits",
+							"questionNo": "45923",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6700dc6c5baee52d9d16b171",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Word Count",
+							"questionNo": "46028",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6792a83921a60e0acd0586a3"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "65608551eb2429452d514b1e",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Highest mark",
+							"questionNo": "20016",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "655c5d8febeb372f7952c379",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Dictionary Filtering",
+							"questionNo": "19880",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6792a84121a60e0acd0586a5"
+				}
+			]
+		},
+		{
+			"name": "Python File Operations - Session 10",
+			"description": "Python File Operations - Session 10",
+			"type": "unit",
+			"id": "6793f894a42bcf29b4c19431",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6721afa8043bca0f79b9ecad",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "File Eligibility for Submission",
+							"questionNo": "51996",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721b326043bca0f79b9f469",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Analyze the grades of the students",
+							"questionNo": "51997",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721c893043bca0f79ba299d",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Analyze the Contents of a Text File",
+							"questionNo": "52012",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f8f8a42bcf29b4c1945f"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6721d927043bca0f79ba51cc",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Transform the Contents of a Text File",
+							"questionNo": "52068",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721cbac043bca0f79ba3117",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Encrypt the File",
+							"questionNo": "52016",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f903a42bcf29b4c19461"
+				}
+			]
+		},
+		{
+			"name": "Python File Operations - Session 11",
+			"description": "Python File Operations - Session 11",
+			"type": "unit",
+			"id": "6793f899a42bcf29b4c19433",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6721e0e3043bca0f79ba6742",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Calculate Average Length of Lines",
+							"questionNo": "52073",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721d772043bca0f79ba4cf1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Remove a Specified Line",
+							"questionNo": "52065",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721c2f5043bca0f79ba1a6a",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Appending the Contents of the File",
+							"questionNo": "52007",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f90aa42bcf29b4c19465"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6721d3c4043bca0f79ba4350",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Count the Number of Lines in a File",
+							"questionNo": "52023",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721ce70043bca0f79ba37c7",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Reverse the Order of Lines in a Text File",
+							"questionNo": "52020",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f916a42bcf29b4c19468"
+				}
+			]
+		},
+		{
+			"name": "Python File Operations - Session 12",
+			"description": "Python File Operations - Session 12",
+			"type": "unit",
+			"id": "6793f89fa42bcf29b4c19437",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6721e243043bca0f79ba6acc",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Count the Number of Unique Words",
+							"questionNo": "52074",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721de7b043bca0f79ba6082",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Find the Shortest Word",
+							"questionNo": "52072",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721d588043bca0f79ba47fe",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Replace the Specific Content in a File",
+							"questionNo": "52024",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f91da42bcf29b4c1946a"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6721dae5043bca0f79ba56a1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "File Content Trimmer",
+							"questionNo": "52069",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6721d08a043bca0f79ba3c35",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Search a Specific Word",
+							"questionNo": "52021",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f928a42bcf29b4c1946c"
+				}
+			]
+		},
+		{
+			"name": "Python Packages - Session 13",
+			"description": "Python Packages - Session 13",
+			"type": "unit",
+			"id": "6793f8bca42bcf29b4c1944d",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "65cc4bd34b13d10ffa344543",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Simple Line Plot",
+							"questionNo": "27665",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "675a8abf09f9fa022faa950c",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Area Plot",
+							"questionNo": "60357",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "670fb0b162eb44727f56d39a",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Bar Chart",
+							"questionNo": "47568",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "670fb54862eb44727f56daaa",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Pie Chart",
+							"questionNo": "47571",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f92ea42bcf29b4c19474"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "662f9a5639a57d256feefb6f",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Contour plot",
+							"questionNo": "30768",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "66055617e0952d1a529b6996",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Box plot using matplotlib",
+							"questionNo": "29909",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f941a42bcf29b4c19477"
+				}
+			]
+		},
+		{
+			"name": "Python Packages - Session 14",
+			"description": "Python Packages - Session 14",
+			"type": "unit",
+			"id": "6793f8c2a42bcf29b4c19451",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "657c4473cc553f06ae0c63d0",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Create a 2D array with even numbers",
+							"questionNo": "21219",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "657fd9ef89487e59972d49a9",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Subject with highest average score.",
+							"questionNo": "21314",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "657fdd7289487e59972d5049",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Create a 2D array with odd numbers",
+							"questionNo": "21316",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f949a42bcf29b4c19479"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "667a6ccf28220463f64965ac",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Element-wise operations",
+							"questionNo": "32624",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "657d9d1696f2a949bc33d68b",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "City with the highest average income",
+							"questionNo": "21244",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f952a42bcf29b4c19480"
+				}
+			]
+		},
+		{
+			"name": "Python Packages - Session 15",
+			"description": "Python Packages - Session 15",
+			"type": "unit",
+			"id": "6793f8c9a42bcf29b4c19456",
+			"contents": [
+				{
+					"name": "Easy Problems",
+					"description": "Easy Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "657ff03289487e59972d723c",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Sundays in the given year",
+							"questionNo": "21320",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "658010bf89487e59972db5a1",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "DataFrame with integers and their squares.",
+							"questionNo": "21327",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6582e2ae1a4ef93f0e3b90f5",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Average score of each subject",
+							"questionNo": "21447",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f95ba42bcf29b4c19483"
+				},
+				{
+					"name": "Advance Problems",
+					"description": "Advance Problems",
+					"type": "unit",
+					"contents": [
+						{
+							"id": "6582d0681a4ef93f0e3b7935",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Superstar team",
+							"questionNo": "21432",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						},
+						{
+							"id": "6582e6a41a4ef93f0e3b957a",
+							"src": "AMTUwN19jdF9jaA==",
+							"type": "question",
+							"name": "Movie recommendation system",
+							"questionNo": "21470",
+							"questionType": "54883bea2036d78c5efedc3a",
+							"language": "5aaa7c72015de932d3211010"
+						}
+					],
+					"id": "6793f964a42bcf29b4c19485"
+				}
+			]
+		}
+	]
+}
