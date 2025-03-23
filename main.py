@@ -29,7 +29,12 @@ class App(ctk.CTk):
         
         self.title('CodeTantraBot ~ Ai-man')
         
-        self.iconbitmap(icon_path)
+        try:
+            self.iconbitmap(icon_path)
+
+        except Exception as e:
+            print("icon not found !")
+            print(f"Error : {e}")
 
         self.geometry(f"{appWidth}x{appHeight}")
         self.resizable(False, False)
