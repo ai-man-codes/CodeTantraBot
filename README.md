@@ -2,6 +2,10 @@
 
 CodeTantraBot is a Selenium automation tool designed to handle almost every answer for CodeTantra Learning & Practical questions. **Note:** The bot only injects the correct answer into the field; it does **not** submit it automatically.
 
+# Download
+
+[Download Latest Version](https://github.com/ai-man-codes/CodeTantraBot/releases/download/v1.0.0/CodeTantraBot.rar)
+
 ## Features
 
 - **Automated Answer Injection:** Automatically fills in the correct answer for CodeTantra questions.
