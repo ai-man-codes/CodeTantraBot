@@ -11,7 +11,8 @@ json_path = os.path.join(bot_dir, 'answers.json')
 with open(json_path, 'r') as ans:
     data = json.load(ans)
 
-COMMENT = '"""'
+COMMENT_UP = '/*'
+COMMENT_DOWN = '*/'
 CODE_ID = "54883bea2036d78c5efedc3a"
 MCQ_ID = "549b4cf30e08f22e46dbf9cf"
 
@@ -75,8 +76,8 @@ def code(driver, answer_html: str):
     
     try:
         if unchangable_code:
-            driver.execute_script(f"arguments[0].insertAdjacentText('afterbegin', '{COMMENT}');", element)
-            driver.execute_script(f"arguments[0].insertAdjacentText('beforeend', '{COMMENT}');", element)
+            driver.execute_script(f"arguments[0].insertAdjacentText('afterbegin', '{COMMENT_UP}');", element)
+            driver.execute_script(f"arguments[0].insertAdjacentText('beforeend', '{COMMENT_DOWN}');", element)
             
         else:
             driver.execute_script("arguments[0].innerHTML = '';", element)
